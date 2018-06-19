@@ -1,0 +1,27 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "aws4": "^1.7.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moeidsaleem/aws-execute-api.git"
+  },
+  "author": "atrixdigital",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moeidsaleem/aws-execute-api/issues"
+  },
+  "homepage": "https://github.com/moeidsaleem/aws-execute-api#readme"
+}
