@@ -5,8 +5,8 @@ const bodyParser = require('body-parser');
 const app = express();
 
 //some data
-let accessKey = 'AKIAIJJYLIPMKT5GDVBQ';
-let secretKey = 'EjHPcERZFZuMydwjOURGbZKjzEUyJDVPTNYyOnbi';
+let accessKey = '<access-key>';
+let secretKey = '<your-secret-key>';
 let serviceName = 'execute-api';
 var aws4  = require('aws4');
 let cors = require('./cors');
