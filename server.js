@@ -23,11 +23,11 @@ let credentials = {accessKeyId: accessKey, secretAccessKey: secretKey}
 
 
 request(aws4.sign({
-    "host":"api.discursolivre.com.br",
-    "path":"/v1/lastnews",
+    "host":"<host-url>",
+    "path":"<path>",
     "region":"us-east-2",
     "method":"POST",
-    "url":"https://api.discursolivre.com.br/v1/lastnews",
+    "url":"https://<url-api>/v1/lastnews",
     "service": "execute-api",
     "body":`{"ExceptSources":[],"Page": 1,"Type":"right"}`
 }, credentials), function(err, resp, body){
