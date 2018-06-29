@@ -1,9 +1,9 @@
 var AWS = require('aws-sdk')
 var apigateway = new AWS.APIGateway({
-    accessKeyId :'AKIAIJJYLIPMKT5GDVBQ',
-    secretAccessKey  : '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',
+    accessKeyId :'<access-id>',
+    secretAccessKey  : '<secret-key>',
     region :'us-east-2',
-    endpoint :'https://api.discursolivre.com.br/v1/lastnews/'
+    endpoint :'https://<api-url>/v1/lastnews/'
 //apiVersion: '2015-07-09'});
 
 });
